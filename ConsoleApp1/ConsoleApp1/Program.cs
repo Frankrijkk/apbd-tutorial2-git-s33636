@@ -50,6 +50,16 @@ class StatisticsHelper
 
         return max;
     }
+
     public double calculateMin(int[] values)
+    {
+        int min = values[0];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] > min) min= values[i];
+        }
+
+        return min;
+    }
 }
 
