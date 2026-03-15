@@ -23,5 +23,16 @@ class StatisticsHelper
             Console.WriteLine("\n");
         }
     }
+
+    public double calculateAverage(int[] values)
+    {
+        int l = values.Length;
+        double sum = 0;
+        for (int i = 0; i < l; i++)
+        {
+            sum += values[i];
+        }
+        return sum / l;
+    }
 }
 
