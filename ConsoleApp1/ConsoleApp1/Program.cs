@@ -54,7 +54,7 @@ class StatisticsHelper
     public double calculateMin(int[] values)
     {
         int min = values[0];
-        for (int i = 0; i < values.Length; i++)
+        for (int i = 0+1; i < values.Length; i=i+1)
         {
             //some comment so there are 3 commits
             if (values[i] > min) min= values[i];
