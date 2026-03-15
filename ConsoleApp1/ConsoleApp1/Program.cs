@@ -1,6 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Hello, World!");
+StatisticsHelper helper = new StatisticsHelper(6, 8);
+helper.printStatistics();
+
 class StatisticsHelper
 {
     private int x;
