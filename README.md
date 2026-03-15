@@ -5,3 +5,6 @@ the merge wasnt fast forward because there was a commit on main after the branch
 a fast forward merge appears only when there's a path between the newest commit on the current barnch and the newest commit on the target branch 
 
 rebase puts every one of the commits that are on the current branch on top of the newest commit of main. merge merges the two branches. rebase allows for a cleaner history when git log 
+
+
+conflict was resolved by rejecting the really dumb and confusing chenges of the person on main and keeping the changes of the person on feature-conflict branch
