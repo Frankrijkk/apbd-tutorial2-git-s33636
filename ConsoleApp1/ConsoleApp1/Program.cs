@@ -3,6 +3,8 @@
 Console.WriteLine("Hello, World!");
 StatisticsHelper helper = new StatisticsHelper(6, 8);
 helper.printStatistics();
+int[] arr = new[] { 1, 2, 3, 4, 5, 6, 7, 6, 7, 67 };
+Console.WriteLine(helper.calculateAverage(arr));
 
 class StatisticsHelper
 {
