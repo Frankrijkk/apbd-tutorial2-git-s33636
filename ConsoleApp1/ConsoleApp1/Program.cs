@@ -37,5 +37,16 @@ class StatisticsHelper
         }
         return sum / l;
     }
+
+    public double calculateMax(int[] values)
+    {
+        int max = values[0];
+        for (int i = 0; i < values.Length; i++)
+        {
+            if (values[i] > max) max= values[i];
+        }
+
+        return max;
+    }
 }
 
