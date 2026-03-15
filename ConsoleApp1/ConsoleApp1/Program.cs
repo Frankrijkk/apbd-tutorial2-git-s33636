@@ -50,5 +50,6 @@ class StatisticsHelper
 
         return max;
     }
+    public double calculateMin(int[] values)
 }
 
