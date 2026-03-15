@@ -56,6 +56,7 @@ class StatisticsHelper
         int min = values[0];
         for (int i = 0; i < values.Length; i++)
         {
+            //some comment so there are 3 commits
             if (values[i] > min) min= values[i];
         }
 
